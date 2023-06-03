@@ -7,7 +7,7 @@
 function prompt {
   # Options
 
-  $hostText = [Environment]::UserName + "@" + $(hostname)
+  $hostText           = [Environment]::UserName + "@" + $(hostname)
   $hostBgColor        = 12      # all colors can be in R,G,B format as well as single color number
   $hostTextColor      = 231
   $hostBold           = $true
